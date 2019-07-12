@@ -1,4 +1,0 @@
-age_data_predict 文件对数据集进行预处理
-
-vgg19neuralNetworks是用tensorflow写的一个vgg19网络，电脑现存不够，训练效果不好
-
