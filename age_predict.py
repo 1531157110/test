@@ -16,7 +16,7 @@ class PredictAge():
         self.init = tf.global_variables_initializer()
         self.sess.run(self.init)
         self.saver = tf.train.Saver(self.variables)
-        self.saver.restore(self.sess, "savers/train_age.ckpt")
+        self.saver.restore(self.sess, "savers/train_age29.ckpt")
         print('模型恢复成功')
 
     def predict_age(self, path=None, image=None):
